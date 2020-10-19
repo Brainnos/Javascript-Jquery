@@ -1,0 +1,69 @@
+h1, h2, nav {
+    font-family: 'Merienda', cursive;
+}
+
+nav, footer {
+    background: #061339;
+}
+
+header {
+    background: url(../image/background.jpg);
+    height: 16vh;
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    color: #2F4073;
+}
+
+#section1, #section1 article {
+    background: #f1f1f1;
+}
+
+#section1 h2 {
+    font-size: 1.3em;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.carousel-indicators > li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+#section2 {
+    background: #dddddd;
+}
+
+#section2 h2 {
+    font-size: 1.6em;
+}
+
+#section2 img {
+    background: #7885A5;
+}
+
+#section2:hover img {
+    transition: 3s;
+    background: #061339;
+}
+
+textarea.form-control #champtext {
+    height: 200px;
+}
+
+#tetechat {
+    transform: translateY(-15%);
+}

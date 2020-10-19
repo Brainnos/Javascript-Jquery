@@ -1,0 +1,61 @@
+#conteneur {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#chargement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: white;
+}
+
+#chargement img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#image {
+    width: 100%;
+}
+#fleche-gauche, #fleche-droite {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    transform: translateY(-50%);
+}
+
+#fleche-gauche {
+    left: 10px;
+}
+
+#fleche-droite {
+    right: 10px;
+}
+
+#rond {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#rond #fini {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+}

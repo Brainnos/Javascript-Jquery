@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon form intéractif</title>
+</head>
+
+<body>
+
+    <form action="#" method="GET">
+
+        <p>
+            <label for="nom">Nom :</label>
+            <input type="text" name="nom" id="nom">
+        </p>
+
+        <p>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="confirmerEmail">Confirmer e-mail :</label>
+            <input type="email" name="confirmerEmail" id="confirmerEmail">
+        </p>
+
+        <p>
+            <label for="motdepasse">Mot de passe :</label>
+            <input type="password" name="motdepasse" id="motDePasse">
+            <button type="button" id="boutonMotDePasse">Voir/Masquer</button>
+        </p>
+
+        <p>
+            <label for="confirmerMotdepasse">Mot de passe :</label>
+            <input type="password" name="confirmerMotdepasse" id="confirmerMotDePasse">
+        </p>
+    </form>
+
+    <button type="submit" value="Valider" id="boutonSubmit">Valider</button>
+
+    <p>Validation du formulaire :</p>
+    
+    <ul>
+        <li>Le nom doit faire au moins 5 caractères</li>
+        <li>Les 2 emails doivent être identiques</li>
+        <li>Les 2 mots de passes doivent être identiques</li>
+    </ul>
+
+    <p> Si erreur, bordure rouge, si ok, bordure verte </p>
+
+    <!-- Fichier Javascript -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
